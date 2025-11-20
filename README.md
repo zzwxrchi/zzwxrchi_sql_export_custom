@@ -11,5 +11,5 @@ This adons overwirte sql_export addons behave, change 2 custom properties output
                 If the input text contains '=', like '1=A', the out put will be '1'
 
             With format 'xxx=yyy', the addons use 'xxx' like a key and 'yyy' a value
-            If inputs text without '=', don't change anything.
+            If inputs text without '=', will output with text original, don't change it.
             Is posible need change your created sql statement.
