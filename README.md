@@ -1,9 +1,7 @@
-Is a addons for odoo cumunity v16.0.
+Is a addons for odoo community v16.0.
 
-This adons change 2 custom properties output datas:
+This adons overwirte sql_export addons behave, change 2 custom properties output datas:
 
-  'depends': ['sql_export']
-       
             Property type Tags:
                 Will output with tuple type result(convenient for integration into sql)
                 If tag name contains '=', like 'draft=Borrador', the out put will be 'draft'
@@ -13,4 +11,5 @@ This adons change 2 custom properties output datas:
                 If the input text contains '=', like '1=A', the out put will be '1'
 
             With format 'xxx=yyy', the addons use 'xxx' like a key and 'yyy' a value
-            If inputs text without '=', don't change anything
+            If inputs text without '=', don't change anything.
+            Is posible need change your created sql statement.
